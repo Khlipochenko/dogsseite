@@ -1,0 +1,40 @@
+
+.bilder{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   gap: 2rem;
+   
+   
+}
+img{
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+    
+    
+}
+main{
+   min-height: 100vh;
+    background: rgb(185,235,244);
+    background: linear-gradient(90deg, rgba(185,235,244,1) 35%, rgba(0,212,255,1) 65%, rgba(39,149,236,1) 100%);
+    h1{
+        text-align: center;
+        padding-top: 2rem;
+        color: rgb(40, 29, 145);
+        text-decoration: underline;
+        
+    }
+
+}
+ul{
+   max-height: 300px;
+    overflow-x: hidden;
+    li:hover{
+        background-color: rgb(154, 231, 225);
+    }
+
+
+}
